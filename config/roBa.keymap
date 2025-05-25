@@ -91,7 +91,7 @@
 
         NUM {
             bindings = <
-&kp LA(TAB)     &kp LC(TAB)      &kp LC(LS(TAB))  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp N7        &kp N8        &kp N9        &kp RIGHT_PARENTHESIS
+&kp LA(TAB)     &kp LC(LS(TAB))  &kp LC(TAB)      &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp N7        &kp N8        &kp N9        &kp RIGHT_PARENTHESIS
 &kp SLASH       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERCENT
 &kp LEFT_SHIFT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH
 &trans          &trans           &kp LEFT_ALT     &trans           &trans        &trans                       &kp LA(SPACE)   &kp N0                                                      &kp PIPE
