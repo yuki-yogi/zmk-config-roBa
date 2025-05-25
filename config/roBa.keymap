@@ -82,10 +82,10 @@
 
         FUNCTION {
             bindings = <
-&trans           &kp LG(W)    &kp AT_SIGN           &kp LG(R)              &kp LG(T)                              &kp AMPERSAND     &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
-&kp LS(LC(TAB))  &kp LC(TAB)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp PERCENT  &trans         &kp F13    &kp F6            &mt UNDERSCORE MINUS  &mt MINUS PLUS        &kp EQUAL              &kp LG(ENTER)
-&kp LEFT_SHIFT   &trans       &trans                &trans                 &trans       &kp LG(D)      &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION
-&trans           &trans       &trans                &trans                 &trans       &trans         &kp SPACE  &trans                                                                               &kp F12
+&trans           &kp LG(W)    &kp AT_SIGN  &kp LG(R)  &kp LG(T)                           &kp AMPERSAND     &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp TILDE
+&kp LS(LC(TAB))  &kp LC(TAB)  &kp LG(D)    &kp LG(F)  &kp PERCENT  &trans      &kp F13    &kp F6            &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(L)              &kp LG(ENTER)
+&kp LEFT_SHIFT   &trans       &trans       &trans     &trans       &trans      &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LESS_THAN          &kp GREATER_THAN       &kp QUESTION
+&trans           &trans       &trans       &trans     &trans       &trans      &kp SPACE  &trans                                                                                &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
