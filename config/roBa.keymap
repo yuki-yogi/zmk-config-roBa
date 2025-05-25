@@ -82,7 +82,7 @@
 
         FUNCTION {
             bindings = <
-&trans           &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp DOLLAR                             &kp AMPERSAND     &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
+&trans           &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp LG(T)                              &kp AMPERSAND     &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
 &kp LS(LC(TAB))  &kp LC(TAB)      &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp PERCENT  &trans         &kp F13    &kp F6            &mt UNDERSCORE MINUS  &mt MINUS PLUS        &kp EQUAL              &kp PIPE
 &kp LEFT_SHIFT   &trans           &trans                &trans                 &trans       &kp LG(D)      &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION
 &trans           &trans           &trans                &trans                 &trans       &trans         &kp SPACE  &trans                                                                               &kp F12
