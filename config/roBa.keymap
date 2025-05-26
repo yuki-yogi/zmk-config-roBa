@@ -82,10 +82,10 @@
 
         fn {
             bindings = <
-&trans             &trans           &trans  &trans  &trans                      &trans                &trans                &trans          &kp UP_ARROW  &trans
-&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans      &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LEFT_ARROW  &kp RIGHT     &trans
-&trans             &trans           &trans  &trans  &trans  &trans      &trans  &trans                &trans                &trans          &kp DOWN      &trans
-&trans             &trans           &trans  &trans  &trans  &trans      &trans  &trans                                                                    &trans
+&trans             &trans           &trans  &trans  &trans                      &trans   &trans   &trans          &kp UP_ARROW  &trans
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans      &trans  &kp F14  &kp F15  &kp LEFT_ARROW  &kp RIGHT     &trans
+&trans             &trans           &trans  &trans  &trans  &trans      &trans  &trans   &trans   &kp DOWN_ARROW  &trans        &trans
+&trans             &trans           &trans  &trans  &trans  &trans      &trans  &trans                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
